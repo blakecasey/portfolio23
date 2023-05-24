@@ -1,0 +1,190 @@
+/* Start of Header */
+html {
+  scroll-behavior: smooth;
+}
+.header{
+  background-color: rgb(255, 255, 255);
+  height: 81vh;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.headertext{
+  position: relative;
+}
+#logo{
+  margin: center;
+  margin-bottom: -100px;
+  margin-top: 10px;
+}
+#name{
+  color: rgb(146, 145, 145);
+  font-size: 3vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: -50px;
+}
+#job{
+  color: rgb(0, 0, 0);
+  font-size: 15vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  letter-spacing: -12px;
+  margin-right: 2%;
+  margin-top: 75px;
+}
+#description{
+  color: rgb(0, 0, 0);
+  font-family: "Larsseit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 46px;
+  margin-right: 2%;
+  margin-top: -8%;
+}
+.button1{
+  color: rgb(255, 255, 255);
+  font-size: 2.5vh;
+  margin-top: 4%;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(146, 145, 145);
+  border: 15px solid rgb(146, 145, 145);
+}
+.button1:hover{
+  background-color: rgb(114, 114, 114);
+  border: 15px solid rgb(114, 114, 114);
+}
+.button2{
+  background-color: white;
+  cursor: pointer;
+  margin-top: 2%;
+  font-size: 3.5vh;
+  display: inline-block;
+  position: relative;
+  color: rgb(146, 145, 145);
+  border: 3px rgb(146, 145, 145);
+}
+.button2:after {
+  font-size: 3.5vh;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(114, 114, 114);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.button2:hover:after {
+  font-size: 3.5vh;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.button3{
+  color: rgb(255, 255, 255);
+  font-size: 3.5vh;
+  margin-top: 4%;
+  margin-left: 100px;
+  cursor: pointer;
+  background-color: rgb(208, 208, 208);
+  border: 15px solid rgb(208, 208, 208);
+  text-decoration: none;
+}
+.header2{
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  padding: 5px
+}
+#projecttitle, #contact{
+  color: rgb(0, 0, 0);
+  font-size: 7.5vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  letter-spacing: -6px;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 100px 30px;
+  padding: 50px;
+  background-color: rgb(231, 231, 231);
+}
+
+.grid-item {
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  padding: 5px;
+
+  transition: all .2s ease-in-out; 
+}
+
+.grid-item:hover {
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  padding: 5px;
+
+  transform: scale(1.15);
+}
+img{
+  margin: auto;
+}
+#visit{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#visit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.header3{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #ffffff;
+}
